@@ -63,7 +63,7 @@ This project uses Selenium and automatically downloads the correct driver for yo
 ### 2. Requirements
 In the GHunt folder, run:
 ```bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 Adapt the command to your operating system if needed.
 
@@ -74,7 +74,7 @@ If you don't have cookies stored (ex: first launch), you will be asked for the 4
 
 Then, you can run the tool like this:
 ```bash
-python hunt.py myemail@gmail.com
+python3 hunt.py myemail@gmail.com
 ```
 
 ⚠️ I suggest you make an empty account just for this or use an account where you never login because depending on your browser/location, re-logging in into the Google Account used for the cookies can deauthorize them.
